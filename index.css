@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bree+Serif&family=Josefin+Sans&family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navmenu_cantainer{
+background-color: #065d91;
+border: 2px solid rgba(243, 10, 123, 0.999);
+}
+.navmenu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_items{
+    padding: 0.8rem 1.5rem;
+    list-style: none;
+    border-right: 2px solid white;
+
+}
+.nav_items :hover{
+   color: red;
+   font-weight: 600;
+}
+.nav_items a{
+    text-decoration: none;
+   color: white;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.nav_cantainer{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid blue;
+
+}
+.logo{
+    position: absolute;
+    left: 1rem;
+}
+.logo img{
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color:  red #16f516 #ff008c #4924d0;;
+}
+.web_name{
+    padding: 1rem 3rem;
+    border: 3px solid;
+    border-radius: 2rem;
+    border-color: red #16f516 #ff008c #4924d0;
+    font-family: 'Bree Serif', serif;
+}
+.search_cantainer{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+}
+.search {
+    padding: 0.8rem;
+    width: 11rem;
+    border-radius: 2rem 0 0 2rem;
+    border: 2px solid ;
+    border-color: red #16f516 #ff008c #3802fa;
+}
+.button{
+    padding: 0.8rem;
+    border-radius: 0 2rem 2rem 0;
+    width: 5rem;
+    background-color: #f10960ad;
+    color: white;
+    font-weight: bold;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #fd5ab3;
+    font-size: 15px;
+}
+.searchbar{
+    margin: 1rem 2rem;
+}
+
+.image_notice_cantainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.image img{
+    height: 53vh;
+    width: 55vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.notice{
+    border: 1px solid gray;
+    padding:1.1rem;
+    border-radius: 1.5rem;
+    height: 49vh;
+    margin: 0 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.notice h2{
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 1rem;
+    background-color: #f10960ad;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+.list li{
+    text-align: center;
+    list-style: none;
+    font-size: 14px;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid grey;
+    
+}
+.list ul li a {
+    text-decoration: none;
+    color: #5308f8;
+}
+.list ul li a:hover{
+    color: rgb(6, 206, 6);
+    font-size: 15px;
+}
+.disc_cantainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.disc{
+    max-width: 60vw;
+    text-align: justify;
+    background-color: rgb(220, 196, 196);
+    border-radius: 1rem;
+    border: 2px solid;
+    border-color: red #16f516 #ff008c #3802fa;
+}
+.desc_head h2{
+    margin: 2rem;
+}
+.paragraph p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.links_cantainer{
+    margin-top: 1.5rem;
+}
+.heading{
+    background-color: #ece0e8ad;
+    color: #ff008c;
+}
+.heading p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.notice2{
+    padding: 2rem;
+    min-width: 20vw;
+    height: auto;
+    border-color: red #16f516 #ff008c #3802fa;
+}
+.right_disc{
+    height: 10vh;
+    background-color: #898fe1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.right_disc p{
+    font-size: 1.1rem;
+    color: white;
+}
